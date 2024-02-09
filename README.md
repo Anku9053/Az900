@@ -26,4 +26,24 @@ Cloud services aise computational power aur resources provide karte hain jo mach
 ##Artificial Intelligence (AI): 
 Cloud computing AI applications ke development aur deployment ko support karta hai. Ye computational resources, storage, aur tools provide karta hai jo AI ko seamlessly business processes aur services mein integrate karne mein madad karte hain.
 
-## History Of Cloud Computing [https://www.vhv.rs/dpng/d/484-4843974_emoji-customemoji-knife-psycho-freetoedit-smile-emoji-with.png]
+## History Of Cloud 🥱🥱
+Client/Server Computing: Before the emergence of cloud computing, there was client/server computing, where all software applications, data, and controls were centralized on the server. Users had to connect to the server to access specific data or run programs.
+
+Distributed Computing: Following client/server computing, distributed computing came into play. In this model, computers were networked together and shared resources as needed.
+
+Concept of Cloud Computing: Based on distributed computing, the concept of cloud computing emerged. The idea was to implement computing resources in a way that resembles a utility, much like water or electricity.
+
+John McCarthy's Suggestion (1961): In 1961, John McCarthy suggested in a speech at MIT that computing could be sold as a utility. However, despite interest in the idea, the technology was not ready for it at that time.
+
+Salesforce.com (1999): In 1999, Salesforce.com started delivering applications to users over the Internet, making the idea of computing as a utility a reality for enterprises.
+
+Amazon Web Services (AWS, 2002): In 2002, Amazon launched Amazon Web Services (AWS), providing services such as storage, computation, and even human intelligence. The Elastic Compute Cloud (EC2) was launched in 2006 as a truly commercial service open to everybody.
+
+Google Apps (2009): In 2009, Google Apps entered the scene, offering cloud computing enterprise applications.
+
+Microsoft Azure (2009): In the same year, Microsoft launched Windows Azure, marking its entry into the cloud computing space. Other major players like Oracle and HP also joined the evolution.
+
+Mainstream Adoption: Today, cloud computing has become mainstream, with various companies, both early and late adopters, actively participating in the cloud computing ecosystem.
+
+### Lets Play A Game Now 😈
+https://drive.google.com/file/d/1WIQXNJN-9jonRvpxcwyJUzgYsh88Dy43/view?usp=sharing
