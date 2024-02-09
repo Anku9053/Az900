@@ -15,3 +15,15 @@ Cloud computing mein, aap third-party service providers ke through computing res
 Isse cost-effective hota hai kyunki aap only us amount ke liye pay karte hain jo aapne use kiya hai, aur aapko apne infrastructure ki scaling aur maintenance ki chinta nahi hoti. On-demand access ke karan, aap quickly aur flexibly advanced technologies jaise AI aur ML ka istemal kar sakte hain jab aapko zarurat ho.
 
 Overall, cloud computing ek modern, efficient, aur cost-effective approach hai IT resources manage karne ka, jo traditional methods ke mukable mei adhik flexibility aur scalability provide karta hai.
+
+## Terms In Cloud Computing Defination🤨🤨
+##Internet of Things (IoT):
+Jab devices, jaise ki sensors aur smart gadgets, data generate karte hain aur ye data cloud computing ke through manage hota hai. Isse data ko ek central location se control kiya ja sakta hai aur ye system scalable hota hai, matlab ki aap as per requirement apne data ko badha ya ghataya ja sakte hain.
+
+##Machine Learning (ML):
+Cloud services aise computational power aur resources provide karte hain jo machine learning models ko train karne aur deploy karne ke liye zaroori hote hain. Isse organizations ko apne infrastructure ko upgrade karne ki zarurat nahi hoti, aur wo machine learning ka faida utha sakte hain bina kisi bade infrastructure ke.
+
+##Artificial Intelligence (AI): 
+Cloud computing AI applications ke development aur deployment ko support karta hai. Ye computational resources, storage, aur tools provide karta hai jo AI ko seamlessly business processes aur services mein integrate karne mein madad karte hain.
+
+## History Of Cloud Computing [https://www.vhv.rs/dpng/d/484-4843974_emoji-customemoji-knife-psycho-freetoedit-smile-emoji-with.png]
