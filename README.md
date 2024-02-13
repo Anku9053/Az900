@@ -48,6 +48,19 @@ Mainstream Adoption: Today, cloud computing has become mainstream, with various 
 ### Lets Play A Game Now 😈
 https://drive.google.com/file/d/1WIQXNJN-9jonRvpxcwyJUzgYsh88Dy43/view?usp=sharing
 
+## How Does A Cloud Architecture Look Like??
+<div align="center">
+  <img src="https://i.pinimg.com/originals/05/09/54/0509540e64290c51e74c497b7a51dec1.jpg">
+</div>
+Cloud computing architecture is divided into the following two parts -
+• Front End
+• Back End
+
+* Front End (फ्रंट एंड): Yeh client dwara istemal hota hai, jisme user interfaces aur applications hote hain jo cloud computing platforms tak pahunchne ke liye use hote hain. Jaise ki web browsers, tablets, mobile devices, etc.
+
+* Back End (बैक एंड): Yeh service provider dwara istemal hota hai, jisme saare resources hote hain jo cloud computing services provide karne ke liye chahiye hote hain. Jaise ki data storage, security mechanisms, virtual machines, servers, etc.
+
+
 ## What is cloud Model??
 cloud models ka matlab hota hai ki kaise aap apne IT resources ko deploy karte hain. Teen main cloud models hote hain: private, public, aur hybrid.
 
