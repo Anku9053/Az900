@@ -80,7 +80,7 @@ Private cloud ek aisa cloud hai jo sirf ek hi organization ke liye hota hai. Ism
 * Not Suitable for High User Base: Ye un organizations ke liye suitable nahi hai jo zyada users ke saath kaam karte hain.
 * Infrastructure and Manpower: Agar organization mein infrastructure nahi hai ya sufficient manpower nahi hai to private cloud suitable nahi hoga.
 
-<div align="center",background="white">
+<div  width="100%" align="left",background="white">
 
 ![Image](https://i.pinimg.com/736x/0b/a6/99/0ba69924584c5a21b1e2a37c91ac9f79.jpg)
 
