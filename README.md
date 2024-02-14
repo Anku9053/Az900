@@ -104,7 +104,7 @@ Public Cloud ek aisa cloud hota hai jo third-party cloud provider dwara banaya, 
 
 
 <p align="center">
-  <img width="40%" src="https://images.spiceworks.com/wp-content/uploads/2021/07/14133930/Features-of-Public-Cloud.png" alt="Image">
+  <img width="80%" src="https://images.spiceworks.com/wp-content/uploads/2021/07/14133930/Features-of-Public-Cloud.png" alt="Image">
 </p>
 
 ## What is Hybrid Cloud??
