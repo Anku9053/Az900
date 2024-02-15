@@ -82,7 +82,8 @@ Private cloud ek aisa cloud hai jo sirf ek hi organization ke liye hota hai. Ism
 
 <div  width="100%" align="left",background="white">
 
-![Image](https://i.pinimg.com/736x/0b/a6/99/0ba69924584c5a21b1e2a37c91ac9f79.jpg)
+<img width="100%" src="https://i.pinimg.com/736x/0b/a6/99/0ba69924584c5a21b1e2a37c91ac9f79.jpg">
+<!-- ![Image](https://i.pinimg.com/736x/0b/a6/99/0ba69924584c5a21b1e2a37c91ac9f79.jpg) -->
 
 </div>
 
