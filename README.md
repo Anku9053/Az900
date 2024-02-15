@@ -147,3 +147,16 @@ Community Cloud ek aisa cloud model hai jo kai organizations ke beech mein data 
 
 ### Lets Play A Game Now 😈
 https://drive.google.com/file/d/1m-mr8loXtGJn8zzqtWY6pQTo9-gUptwN/view?usp=sharing
+
+## What are the three types of services in cloud computing??
+### IaaS (Infrastructure as a Service):
+* IaaS ek cloud computing service model hai, jisme users ko virtualized computing infrastructure, jaise ki virtual machines, storage, aur networking, internet ke through provide ki jati hai. Ismein users ko infrastructure ka direct control hota hai, lekin physical hardware ki responsibilities service provider par hoti hain.
+* Advantages : Pura control infrastructure par hota hai, scalability hai, aur pay-as-you-go model flexibility provide karta hai.
+
+### PaaS (Platform as a Service):
+* Definition : PaaS ek cloud computing service model hai, jisme users ko ek ready-to-use platform milti hai jiska istemal karke woh applications develop aur run kar sakte hain, bina infrastructure ki detailed management kiye. Ismein users ko application development par focus karne mein madad milti hai.
+* Advantages : Developers ko simplified environment milta hai, automatic scaling hoti hai, aur infrastructure management provider ki zimmedari hoti hai.
+
+### SaaS (Software as a Service):
+* Definition : SaaS ek cloud computing service model hai, jisme users ko internet ke through ready-to-use software milta hai, jaise email, office tools, ya collaboration applications. Ismein users ko installation aur maintenance ki chinta nahi hoti.
+* Advantages : Turant access milta hai, managed services hote hain, aur users ko infrastructure ke upar kam worry hoti hai.
