@@ -161,3 +161,39 @@ https://drive.google.com/file/d/1m-mr8loXtGJn8zzqtWY6pQTo9-gUptwN/view?usp=shari
 ### SaaS (Software as a Service):
 * Definition : SaaS ek cloud computing service model hai, jisme users ko internet ke through ready-to-use software milta hai, jaise email, office tools, ya collaboration applications. Ismein users ko installation aur maintenance ki chinta nahi hoti.
 * Advantages : Turant access milta hai, managed services hote hain, aur users ko infrastructure ke upar kam worry hoti hai.
+
+## Unit 2🚀
+
+## What are we going to learn in this unit?
+### Describe the core architectural components of Azure such as Azure Regions and Region Pairs, Availability Zones, Azure Subscriptions, Management Groups, Resource Groups and Resources 🥴🥴
+<p align="center">
+  <img align="center" width="60%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFAnejFM6aix670bVSmcJb1TE8EJ__wKmNJw&usqp=CAU">
+</p>
+
+## Azure management:
+Azure Management Infrastructure ka matlab hai woh basic components ya tatva jo Microsoft Azure cloud platform mein hote hain aur jinka use resources ko organize, provision (taiyar karna), aur manage karne mein hota hai.
+
+* Azure Resources:
+Azure Resources woh basic units hain jo Azure platform mein use hote hain. Examples mein Virtual Machines (VMs), virtual networks, databases, cognitive services, aur bhi kuch aata hai. Essentially, jo bhi aap Azure mein create, provision, ya deploy karte hain, woh resource hota hai.
+
+* Resource Groups:
+Resource Groups containers hote hain jo Azure resources ko logical taur par organize karne mein help karte hain. Har resource ko ek resource group mein place karna zaroori hai. Ek resource group mein bahut se resources ho sakte hain, lekin har resource sirf ek hi resource group mein exist kar sakta hai. Resource groups ek tareeka provide karte hain ki actions ko ek saath apply karke resources ko manage kiya ja sake. Ye nested nahi hote, matlab ek resource group ko doosre ke andar nahi daala ja sakta.
+
+* Subscriptions:
+Subscriptions Azure mein ek logical unit of ownership aur billing ko represent karte hain. Ye Azure resources ke liye containers ka kaam karte hain aur inhen specific billing entities ke saath associate kiya ja sakta hai. Subscriptions allow karte hain users ko access, policies, aur costs ko manage karne mein. Ek subscription ke saath multiple resource groups associate kiye ja sakte hain.
+
+* Accounts:
+Azure Accounts woh user accounts hote hain jo Azure services aur resources tak pahunchne mein use hote hain. Ye subscriptions ke saath associate hote hain aur Azure environment mein resources ko manage karne mein important role play karte hain. Users ke accounts par unke responsibilities ke hisab se different roles aur permissions assign kiye ja sakte hain.
+
+## Azure Compute and networking services
+
+* Virtual Machine
+Azure Virtual Machines (VMs) ka use karke aap cloud mein VMs create aur use kar sakte hain. VMs infrastructure as a service (IaaS) provide karte hain, jisme ek virtualized server ka use hota hai aur ise kai tariko se istemal kiya ja sakta hai. Jaise ki ek physical computer mein, aap apne VM par chalne wale sabhi software ko customize kar sakte hain.
+
+### why do we need vm??
+VMs ek ideal choice hai jab aapko yeh chahiye:
+
+* Aapko operating system par poora control chahiye ho.
+* Aapko apne custom software ko run karne ki zarurat ho.
+
+Azure VM aapko virtualization ki flexibility deta hai bina physical hardware ko khareed kar aur maintain karne ke liye. Lekin, IaaS offering hone ke bawajood, aapko phir bhi VM par chalne wale software ko configure, update, aur maintain karna padta hai.
