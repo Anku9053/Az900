@@ -197,3 +197,34 @@ VMs ek ideal choice hai jab aapko yeh chahiye:
 * Aapko apne custom software ko run karne ki zarurat ho.
 
 Azure VM aapko virtualization ki flexibility deta hai bina physical hardware ko khareed kar aur maintain karne ke liye. Lekin, IaaS offering hone ke bawajood, aapko phir bhi VM par chalne wale software ko configure, update, aur maintain karna padta hai.
+
+## What is Azure Region??
+Azure Region ek aisi jagah hai jahan par Microsoft ne apne data centers set kiye hote hain. Har region apne aap mein ek alag set kiya gaya data centers ka group hai, jo ek specific geographical area mein hota hai. Har region apne power, cooling, aur networking ke liye independent hota hai, jisse data residency, compliance, aur fault tolerance ensure kiya ja sake.
+
+For example, agar aapka business India mein hai aur aap apne data ko India mein hi store karna chahte hain taki woh local laws aur regulations ke mutabiq rahe, toh aap Azure ka ek India region choose kar sakte hain.
+
+## some of the basic keypoints for Azure Region
+* Data Residency
+* Resource Deployment
+* Service Availability
+* Availability Zones
+
+## what is Region Pair??
+Region Pair do aise regions ko represent karta hai jo ek hi geography mein hote hain. Inka use mainly data protection aur disaster recovery ke liye hota hai. Ye dono regions ek dusre se door hote hain taki agar ek region mein koi problem aati hai, toh dusra region uska backup provide kar sake.
+
+For example, agar aapka data ek region mein hai, toh aap us data ka backup dusre region mein bhi rakh sakte hain. Jaise ki agar aap Azure Site Recovery ka use karte hain, toh aap ek region se dusre region mein apne data ko replicate kar sakte hain, jisse aapko disaster ki situation mein data loss nahi hoga.
+
+## some of the basic keypoints for Azure Region Pair
+* Region Pair
+* Disaster Recovery
+* Resiliency
+* Data Replication
+* Planned Maintenance
+
+## what is Availability Zone??
+Availability Zone ek physical data center hota hai jo ek specific geographic area mein located hota hai. Har ek Availability Zone apne alag-alag power, cooling, aur networking se equipped hota hai, jisse agar ek Zone mein koi issue aata hai, toh dusre Zones kaam karna continue kar sakte hain.
+
+<p align="center">
+  <img width="70%" align="center" src="https://i0.wp.com/azurelib.com/wp-content/uploads/2021/02/image-62.png?resize=408%2C408&ssl=1">
+</p>
+
