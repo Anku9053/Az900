@@ -1,3 +1,13 @@
+## What's the syallabus we need to follow??
+<p align="center">
+  <img src="https://i.pinimg.com/736x/a7/2f/22/a72f228ac415e3479c0b97bd8a6ead0d.jpg">
+</p>
+
+<p align="center">
+  <img width="75%" src="https://memeheist.com/wp-content/uploads/2023/09/Hum-Karte-Hai-Prabandh-Meme-.jpg">
+</p>
+
+* https://drive.google.com/file/d/10sSLM4XL22teSYZE8JDvVPM_kNWprJ8O/view?usp=sharing
 
 ## WHat isCloud Computing??🤔
 Cloud computing ek aisi technology hai jisme computing services, jaise ki virtual machines, storage, databases, aur networking, internet ke through provide kiye jaate hain. Isme traditional IT infrastructure ke elements ko bhi shaamil kiya jata hai. Cloud services aaj kal Internet of Things (IoT), machine learning (ML), aur artificial intelligence (AI) jaise advanced technologies ko bhi include karte hain.
@@ -250,8 +260,14 @@ Imagine a bank with multiple branches. Instead of keeping all customer data in o
 * Availability Zones: Ye ek level up hai. Availability Zones alag-alag data centers ko indicate karte hain jo ek city ya region ke andar hote hain. Agar ek Availability Zone mein koi problem aati hai, to dusre Availability Zones ka use karke application ko up aur running rakha ja sakta hai.
 
 <p align="center">
+  <img src="https://www.pragimtech.com/blog/contribute/article_images/1220201204230917/difference-between-availability-set-and-availability-zone.jpg">
+</p>
+
+<p align="center">
   <img src="https://pbs.twimg.com/media/EZ4tprNU8AAGi6r.jpg:large">
 </p>
 
 ### Lets Play A Game Now 😈
 https://drive.google.com/file/d/1YABcmqL0JwwQ_QEY-IwANNb82ZsvvJVu/view?usp=sharing
+
+## what is cloud computing services??🤔
