@@ -228,3 +228,30 @@ Availability Zone ek physical data center hota hai jo ek specific geographic are
   <img width="70%" align="center" src="https://i0.wp.com/azurelib.com/wp-content/uploads/2021/02/image-62.png?resize=408%2C408&ssl=1">
 </p>
 
+## What is Availability Set??😵‍💫
+Availability Set ek aisi setting hai jo cloud computing mein use hoti hai taki agar kisi server ya resource mein koi problem aaye, toh dusre resources kaam karte rahein. Isse hamara application hamesha up aur available rehta hai.
+
+* Example
+Imagine a bank with multiple branches. Instead of keeping all customer data in one branch, they distribute it among different branches. If one branch faces an issue, others can still serve customers, ensuring continuous banking services.
+
+### Advantages
+* High Availability: Keeps your application running even if one part fails.
+* Fault Tolerance: Reduces the risk of system failures affecting the entire application.
+* Business Continuity: Ensures your services are available to users without interruption.
+
+### Disadvantages
+* Cost: Setting up and maintaining multiple instances can be more expensive.
+* Complexity: Managing multiple instances and ensuring synchronization can be complex.
+* Resource Utilization: Some resources may be underutilized if all instances are not running at full capacity.
+
+## Differences Between Availability Set and Availability Zones??
+* Availability Set: Ye multiple VMs ko ek hi data center ke andar alag-alag physical servers par distribute karta hai. Agar data center mein kuch ho jaaye, toh Availability Set ensure karta hai ki application kaam karna jaari rakhe.
+
+* Availability Zones: Ye ek level up hai. Availability Zones alag-alag data centers ko indicate karte hain jo ek city ya region ke andar hote hain. Agar ek Availability Zone mein koi problem aati hai, to dusre Availability Zones ka use karke application ko up aur running rakha ja sakta hai.
+
+<p align="center">
+  <img src="https://pbs.twimg.com/media/EZ4tprNU8AAGi6r.jpg:large">
+</p>
+
+### Lets Play A Game Now 😈
+https://drive.google.com/file/d/1YABcmqL0JwwQ_QEY-IwANNb82ZsvvJVu/view?usp=sharing
