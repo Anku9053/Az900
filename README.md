@@ -271,3 +271,69 @@ Imagine a bank with multiple branches. Instead of keeping all customer data in o
 https://drive.google.com/file/d/1YABcmqL0JwwQ_QEY-IwANNb82ZsvvJVu/view?usp=sharing
 
 ## what is cloud computing services??🤔
+Azure Compute Services ek cloud computing platform hai jo Microsoft dwara provide kiya jata hai. Ismein aapko alag-alag types ke computing resources milte hain jo aap apne applications deploy, manage, aur scale karne ke liye istemal kar sakte hain. Ye resources include karte hain
+
+## Services cloud computing will provide you ??🤓
+* Virtual Machines (VMs):
+VMs ek virtualization technology ka ek mazboot udaharan hai. Inka mool uddeshya ek hi physical server ko multiple virtual servers mein batakar resources ka behtar istemal karna hai.
+Har VM ek dedicated environment pradan karta hai, jismein apna operating system, applications, aur resources hota hai. Isse har ek VM ek dusre se isolated hota hai, jisse security aur flexibility milti hai.
+VMs ki scalability ki baat karein toh, aap aasani se naye VMs deploy kar sakte hain, aur agar zarurat nahi hai toh unhe hibernate ya shutdown bhi kar sakte hain, jo operational cost kam karta hai.
+
+## some services in vm 
+* Image (Chitra): Azure mein Virtual Machine create karne ke liye aapko kisi base operating system ya pre-configured image ka chayan karna hota hai. Jaise ki Windows Server ya Linux distributions.
+
+* Size (Size): VM ka size decide karta hai ki kitne CPU cores aur kitni RAM aapko chahiye. Jaise ki small, medium, large, aur extra-large.
+
+* Disk Storage (Disk Bhandar): VM ke liye storage ya disk space ka chayan karna hota hai. Ismein aap data aur operating system ke liye alag-alag disk attach kar sakte hain.
+
+* Networking (Network): VM ko Azure ke network se connect karne ke liye aapko virtual network, subnets, IP addresses, aur security groups ka configuration karna hota hai.
+
+* Availability Sets (Uplabdhi Samuha): Yeh ek group hota hai jismein aap multiple VMs ko include kar sakte hain, taki agar koi ek VM fail ho jaye to dusri VMs available rahein.
+
+* Extensions (Vistar): Extensions VM ke functionalities ko badhane aur customize karne ke liye use hote hain. Jaise ki antimalware extensions, custom script extensions, etc.
+
+* Lifecycle Management (Jivan Chakr Prabandhan): VM ke jivan chakr ko manage karna, jaise ki create, update, aur delete karna, ismein aata hai. Yeh operations VM ke management aur maintenance ke liye hote hain.
+
+* Azure App Service:
+Azure App Service PaaS ka ek prakar hai jismein aapko infrastructure management se chhutkara milta hai. Yeh developers ko allow karta hai apne applications ko code, deploy, aur scale karna.
+Ismein kai features shaamil hain jaise ki auto-scaling, high availability, aur automatic patching, jo aapke application ko robust banate hain. Aap apne applications ko multiple environments mein deploy kar sakte hain, jaise ki testing aur production, without worrying about underlying infrastructure.
+
+## some keypoints in Azure app services
+* Web Apps: You can create and host web applications in various programming languages such as .NET, Java, Node.js, Python, etc.
+
+* Mobile Apps: Azure App Service supports the development and hosting of mobile applications, providing backend services for mobile app scenarios.
+
+* API Apps: Developers can build and expose APIs using Azure API Apps, allowing easy integration with other services and systems.
+
+* Logic Apps: Integration with Azure Logic Apps allows you to create workflows and automate processes, enhancing the functionality of your applications.
+
+* Containers: Azure App Service supports containerized applications, allowing you to use Docker containers for deploying and scaling your apps.
+
+* Scaling: App Service provides automatic scaling based on demand, ensuring that your applications can handle varying workloads.
+
+* Continuous Deployment: Integration with Azure DevOps, GitHub, or other version control systems enables continuous deployment and delivery of your applications.
+
+* Security and Compliance: Azure App Service includes features for securing your applications, integrating with Azure Active Directory for authentication, and ensuring compliance with industry standards.
+
+* Monitoring and Diagnostics: App Service provides built-in monitoring tools, logging capabilities, and integration with Azure Application Insights for tracking and diagnosing issues.
+
+* Global Availability: You can deploy your applications in multiple regions around the world to improve availability and reduce latency for users in different geographic locations.
+
+* Azure Functions:
+Azure Functions serverless computing ki visheshata hai, jismein developers ko apne code ki execution ke liye server ki chinta nahi hoti.
+Yeh microservices architecture mein kaam aata hai, jismein aap chhote functions likh kar unhe specific events par trigger kar sakte hain. Isse aap sirf woh resources use karte hain jo execution ke liye zaroori hote hain, jisse cost savings hoti hai.
+* Azure Kubernetes Service (AKS):
+AKS ek managed Kubernetes service hai, jo container orchestration ko asaan banata hai. Kubernetes ek open-source system hai jo containers ko deploy, scale, aur manage karta hai.
+AKS ke zariye aap complex applications ko efficiently aur dynamically handle kar sakte hain. Yeh service aapko control aur visibility provide karta hai over each container, aur aapko infrastructure management se mukt karta hai.
+
+* Azure Batch:
+Azure Batch ek distributed computing service hai jo high-performance computing ke liye design kiya gaya hai. Ismein aap multiple tasks ko define karke distribute kar sakte hain, jo parallel processing mein execute hote hain.
+Isse aap large-scale data processing, scientific simulations, aur rendering tasks ko efficiently aur scale par perform kar sakte hain. Batch aapko compute resources ki abstraction provide karta hai, jisse aap application logic par dhyan de sakte hain.
+
+* Azure Container Instances (ACI):
+ACI ek fast aur simple tareeka hai containerized applications ko run karne ka. Ismein aapko VMs ya clusters ki zarurat nahi hoti, aur aap containers ko bina orchestration ke seedha deploy kar sakte hain.
+ACI aapko granular control deta hai over resources, jisse aap specific requirements ke hisab se resources allocate kar sakte hain. Yeh on-demand nature se aata hai, jisse aapko jald hi applications deploy karne mein madad milti hai.
+
+* Azure Dedicated Host:
+Azure Dedicated Host ek dedicated physical server provide karta hai, jise sirf aapka control hota hai. Ismein aap VMs ko seedha host karte hain, lekin dedicated hardware resources provide kiye jate hain.
+Aap Dedicated Host ke zariye apne applications ko isolate environment mein run kar sakte hain, jo compliance aur security requirements ko meet karta hai. Ismein aapko flexibility milti hai apne VMs ke placement, sizing, aur configurations ke liye.
