@@ -319,10 +319,15 @@ Ismein kai features shaamil hain jaise ki auto-scaling, high availability, aur a
 
 * Global Availability: You can deploy your applications in multiple regions around the world to improve availability and reduce latency for users in different geographic locations.
 
-* Azure Functions:
+## Azure Functions:
 Azure Functions serverless computing ki visheshata hai, jismein developers ko apne code ki execution ke liye server ki chinta nahi hoti.
 Yeh microservices architecture mein kaam aata hai, jismein aap chhote functions likh kar unhe specific events par trigger kar sakte hain. Isse aap sirf woh resources use karte hain jo execution ke liye zaroori hote hain, jisse cost savings hoti hai.
-* Azure Kubernetes Service (AKS):
+
+
+<p align="center">
+  <img width="70%" src="https://indian.memetemplates.in/uploads/1639258647.jpeg">
+</p>
+## Azure Kubernetes Service (AKS):
 AKS ek managed Kubernetes service hai, jo container orchestration ko asaan banata hai. Kubernetes ek open-source system hai jo containers ko deploy, scale, aur manage karta hai.
 AKS ke zariye aap complex applications ko efficiently aur dynamically handle kar sakte hain. Yeh service aapko control aur visibility provide karta hai over each container, aur aapko infrastructure management se mukt karta hai.
 
