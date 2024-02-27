@@ -327,6 +327,7 @@ Yeh microservices architecture mein kaam aata hai, jismein aap chhote functions 
 <p align="center">
   <img width="70%" src="https://indian.memetemplates.in/uploads/1639258647.jpeg">
 </p>
+
 ## Azure Kubernetes Service (AKS):
 AKS ek managed Kubernetes service hai, jo container orchestration ko asaan banata hai. Kubernetes ek open-source system hai jo containers ko deploy, scale, aur manage karta hai.
 AKS ke zariye aap complex applications ko efficiently aur dynamically handle kar sakte hain. Yeh service aapko control aur visibility provide karta hai over each container, aur aapko infrastructure management se mukt karta hai.
