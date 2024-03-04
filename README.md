@@ -349,3 +349,43 @@ ACI aapko granular control deta hai over resources, jisse aap specific requireme
 * Azure Dedicated Host:
 Azure Dedicated Host ek dedicated physical server provide karta hai, jise sirf aapka control hota hai. Ismein aap VMs ko seedha host karte hain, lekin dedicated hardware resources provide kiye jate hain.
 Aap Dedicated Host ke zariye apne applications ko isolate environment mein run kar sakte hain, jo compliance aur security requirements ko meet karta hai. Ismein aapko flexibility milti hai apne VMs ke placement, sizing, aur configurations ke liye.
+
+## what  is Azure Networking Services ?? 
+### Azure Virtual Network (VNet) ek aisi service hai jo Microsoft Azure cloud platform par provide ki jaati hai, jisse aap ek virtual private network setup kar sakte hain apne cloud resources ke liye. Isme kuch key elements hote hain:
+
+<p align="center">
+ <img src="https://miro.medium.com/v2/resize:fit:1400/0*YPPVPwJA9qWtJ2Jv.png">
+</p>
+
+* Subnets: VNet me aap apne resources ko organize karne ke liye alag-alag sub-networks, ya subnets, create kar sakte hain.
+
+* Virtual Network Gateway: Ye ek service hai jo on-premises network ko Azure VNet se connect karne ke liye use hoti hai, jisse aap hybrid network setup kar sakte hain.
+* A Virtual Network Gateway is a cloud-based, software-defined networking device that facilitates secure and encrypted communication between different networks, such as connecting an on-premises network to an Azure Virtual Network. 
+## diagram for virtual network gateway
+
+![Virtual_Netwok_Gateway](https://github.com/Anku9053/Az900/assets/112754506/a416b9db-b636-4b4e-a7d8-2202371cda28)
+
+* Network Security Groups: Ye aapke VNet ke andar security ko manage karne ke liye use hota hai, jaise ki traffic ko allow or block karna.
+* NSG ek firewall ki tarah kaam karta hai, jisse aap specific types of traffic ko allow ya block kar sakte hain, depending on your security requirements. Har NSG ke paas rules hote hain jo decide karte hain ki kis tarah ka traffic allow hoga aur kis tarah ka block. Yeh rules IP addresses, port numbers, aur protocols ko consider karte hain.
+
+ ## Diagram for network security group
+
+* Azure DNS: Isse aap apne Azure resources ke liye DNS (Domain Name System) ko manage kar sakte hain.
+
+* Route Tables: Ye determine karte hain ki kis tarah ke traffic ko kahan bhejna hai aapke network ke andar.
+
+* Peering: Isse aap ek VNet ko doosre VNet ke sath connect kar sakte hain, jo ki resources ke behtar accessibility aur communication ko enable karta hai.
+
+* VPN Gateway: Ye aapko on-premises network ko secure VPN connection ke through Azure VNet se connect karne ki suvidha deta hai.
+
+* Azure Private Link: Ye aapko Azure services ko private network ke through access karne ki permission deta hai, jisse security aur privacy maintain hoti hai.
+
+* Service Endpoints: Ye aapko Azure services ke liye private IP addresses provide karta hai, jisse aap unhe VNet ke through hi access kar sakte hain.
+
+* Virtual Network TAP: Ye network traffic ko monitor karne aur analyze karne ke liye use hota hai.
+
+<p align="center">
+ <img  src="https://k21academy.com/wp-content/uploads/2020/10/VNet_BlogImage.png">
+</p>
+
+
