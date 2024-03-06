@@ -373,6 +373,9 @@ Aap Dedicated Host ke zariye apne applications ko isolate environment mein run k
 * Azure DNS: Isse aap apne Azure resources ke liye DNS (Domain Name System) ko manage kar sakte hain.
 
 * Route Tables: Ye determine karte hain ki kis tarah ke traffic ko kahan bhejna hai aapke network ke andar.
+ <p align="center">
+  <img src="https://cloudbuild.co.uk/wp-content/uploads/2024/01/image-103.png">
+ </p>
 
 * Peering: Isse aap ek VNet ko doosre VNet ke sath connect kar sakte hain, jo ki resources ke behtar accessibility aur communication ko enable karta hai.
 
