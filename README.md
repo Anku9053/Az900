@@ -458,3 +458,22 @@ Agar aapka database server ek point par overload ho raha hai, toh aap vertical s
 
 ### Lets Play A Game Now 😈
 https://drive.google.com/file/d/1NqRghzDqMbgsWIT3D_kaN3ysxLKcXP0P/view?usp=sharing
+
+## What is LRS and ZRS??
+
+### LRS
+Locally Redundant Storage (LRS) ek aur storage option hai, lekin isme data ek hi data center mein three alag-alag replicas mein store hota hai.
+Jab aap data Azure Storage mein LRS ke saath store karte hain, toh yeh data ek hi data center ke andar teen alag-alag copies mein replicate hota hai. Agar kisi component mein koi issue aata hai, toh bhi doosre copies se data ko retrieve kiya ja sakta hai.
+
+### Advantages:
+
+* Low-Cost Option: LRS ek cost-effective option hai, isme data ko ek hi data center mein store kiya jaata hai, jisse costs kam aate hain.
+* Durability: LRS at least 11 nines (99.999999999%) durability offer karta hai, jo ki bhi ek saal ke liye hai. Lekin ZRS ke comparison mein thoda kam hai.
+
+### ZRS
+Zone-Redundant Storage (ZRS) ek storage service hai jo data ko three Azure availability zones mein synchronous taur par replicate karta hai. Iska mool uddeshya hai data ko ek zone unavailable hone par bhi accessible rakhna.
+
+### Advantages:
+
+* Durability: ZRS at least 12 nines (99.9999999999%) durability provide karta hai, jo ek saal ke liye hai. Yeh data ko bahut zyada reliable banata hai.
+* Accessibility: Agar koi zone unavailable ho jaaye, tab bhi aapka data accessible rehta hai, isse data ki high availability milti hai.
