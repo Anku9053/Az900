@@ -391,4 +391,70 @@ Aap Dedicated Host ke zariye apne applications ko isolate environment mein run k
  <img  src="https://k21academy.com/wp-content/uploads/2020/10/VNet_BlogImage.png">
 </p>
 
+## what is azure storage services??
+### There are Two types of storage 
 
+## Structured Storage 
+
+### Disk 
+* Physical or Virtual Disks: Physical ya virtual disks ke through implement kiya ja sakta hai.
+* File System Structure: File system structure ka use karta hai, jisme folders aur directories organize hote hain.
+* Performance Types: Different performance types mein aata hai, including HDDs (Hard Disk Drives) aur SSDs (Solid-State Drives).
+* Mounting to VMs: Directly virtual machines (VMs) se mount kiya ja sakta hai storage aur data access ke liye.
+* Scalability: Vertical scaling ke liye individual disks ko upgrade karke ya horizontally by adding more disks se scalable hota hai.
+* Data Persistence: Associated virtual machine stop hone par bhi data persist rehta hai, long-term storage ensure karta hai.
+  
+### Table
+* Tabular Structure: Tables ek tabular data model ka use karte hain, jisme rows aur columns hote hain, structured data ke liye suitable hai.
+* Partitioning and Indexing: Efficient data retrieval ke liye partitioning aur indexing ka support karta hai.
+* Scalability: High scalability ke liye design kiya gaya hai, massive datasets ke storage aur retrieval ke liye.
+* NoSQL Capabilities: NoSQL capabilities ko support karta hai, jisse data modeling mein flexibility aur schema-less design milti hai.
+* Query Language: Query language ka use hota hai, often SQL-based, expressive aur powerful data queries ke liye.
+* Global Distribution: Global distribution ke liye distribute kiya ja sakta hai, jisse performance aur reliability improve hoti hai.
+
+## Unstructured Storage 
+
+### Blob
+* Unstructured Data: Blob storage ka use kisi bhi tarah ke unstructured data jaise ki photos, videos, aur backups ke liye optimize kiya gaya hai.
+Tiered Storage: Yeh multiple access tiers (hot, cool, aur archive) support karta hai, jo data access patterns ke basis par costs ko optimize karne mein madad karta hai.
+Global Distribution: Data ko alag-alag geographical regions mein replicate karne ki capability provide karta hai, jisse availability aur performance improve hoti hai.
+Scalability: Data volumes badhne par seamless scaling ka option deta hai, isliye yeh large-scale applications ke liye suitable hai.
+Content Delivery: Content delivery networks (CDNs) ke saath integrate hota hai, jisse users ko efficient aur fast content delivery milti hai.
+Security Features: Yeh robust security features offer karta hai, jisme data ka encryption at rest aur in transit shaamil hai, jo data ki integrity ko ensure karte hain.
+
+### File
+* Shared Access: Yeh multiple users ko allow karta hai concurrently shared files ko access aur collaborate karne ke liye, jisse yeh team collaboration ke liye suitable hai.
+* Hierarchical Structure: Data ko hierarchical file system mein folders ke saath organize karta hai, jisse data management simplify hota hai.
+* Scalability: Yeh moderate-sized data sets ke liye scalable hai, lekin extremely large datasets ke liye additional considerations ki zarurat ho sakti hai.
+* Access Control: Folders aur files ke liye granular access control provide karta hai, taki permissions effectively manage ki ja sakein.
+* Snapshot Capabilities: Specific points par data ke snapshots ya copies create karne ki capability deta hai, jo data recovery aur backup ke liye useful hoti hai.
+  
+### Queue
+* Asynchronous Communication: Asynchronous communication ko facilitate karta hai, different components ya services ke beech mein.
+*  Message Priority: Message priority set karne ki capability hai, jisse critical tasks ya urgent messages ko handle kiya ja sake.
+* Fault Tolerance: Fault tolerance ko enhance karta hai, allowing messages ko temporarily store karne ki permission deta hai.
+* Scalability: Messages aur tasks ke badhne par horizontally scale hota hai.
+* At-Least-Once Delivery: Reliable message delivery ensure karta hai, usually at-least-once delivery semantics ka use karta hai.
+* Message Time-to-Live (TTL): Messages ke liye time-to-live set karne ki permission deta hai, jisse woh specific time ke baad automatically queue se remove ho jate hain.
+
+## What is Vertical Scaling And Horizontal Scaling??
+### Horizontal Scaling:
+
+Horizontal scaling ka matlab hai ki jab aap apne system ki capacity ko badhane ke liye aur servers ko add karte hain. Isme, aap apne existing infrastructure ke sath naye servers ko juda karke overall capacity ko badha sakte hain. Yeh tarika especially tab istemal hota hai jab aapke paas ek badi application hai jo bahut saare users ko handle kar rahi hai.
+
+* Example:
+Maan lo aapke paas ek online shopping website hai. Jab festive season aata hai aur user traffic badh jata hai, toh aap horizontal scaling ka istemal karke apne servers ko aur add karke website ki performance ko maintain kar sakte ho.
+
+Vertical Scaling:
+
+Vertical scaling ka matlab hai ki aap apne existing server ki capacity ko badhate hain, jaise ki usmein more RAM, processing power, ya storage add karte hain. Isme, aap ek hi server ko upgrade karke uski capability ko enhance karte hain.
+
+* Example (Udaharan):
+Agar aapka database server ek point par overload ho raha hai, toh aap vertical scaling ka istemal karke us server ko upgrade kar sakte hain, jisse woh zyada data handle kar sake.
+
+<p align="center">
+ <img src="https://i.pinimg.com/originals/21/94/be/2194bee5a69dba1d0efd1e6eccb48652.gif">
+</p>
+
+### Lets Play A Game Now 😈
+https://drive.google.com/file/d/1NqRghzDqMbgsWIT3D_kaN3ysxLKcXP0P/view?usp=sharing
