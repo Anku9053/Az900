@@ -477,3 +477,27 @@ Zone-Redundant Storage (ZRS) ek storage service hai jo data ko three Azure avail
 
 * Durability: ZRS at least 12 nines (99.9999999999%) durability provide karta hai, jo ek saal ke liye hai. Yeh data ko bahut zyada reliable banata hai.
 * Accessibility: Agar koi zone unavailable ho jaaye, tab bhi aapka data accessible rehta hai, isse data ki high availability milti hai.
+
+
+## Geo-Redundant Storage (GRS):
+
+Definition (Varnan):
+
+GRS ek Azure Storage Service hai jo data ko primary region se ek geographically distant secondary region mein replicate karta hai. Yeh redundancy provide karta hai taki agar primary region mein koi issue ho, toh data secondary region se recover kiya ja sake.
+Explanation (Samjhaayein):
+
+Jab aap GRS use karte hain, toh aapki data initially ek primary region mein store hoti hai. Iske baad, yeh data ek dusre geographically distant region mein duplicate ho jata hai. Isse agar primary region mein kuch problem aata hai, toh aap apne data ko secondary region se retrieve kar sakte hain.
+Example (Udaharan):
+
+Maan lijiye aapka primary data center New York mein hai. GRS ki madad se, aapki data automatically replicate hoti hai ek aur region, jaise London mein. Agar New York mein kisi natural disaster ya outage ki wajah se data loss ho jaata hai, toh aap London se apne data ko recover kar sakte hain.
+Geo-Zone-Redundant Storage (GZRS):
+
+Definition (Varnan):
+
+GZRS bhi ek Azure Storage Service hai, lekin isme data not only across regions but also within availability zones in the primary region replicate hota hai. Yeh ek aur layer of redundancy provide karta hai.
+Explanation (Samjhaayein):
+
+GZRS mein, data ek primary region mein store hota hai, aur isme availability zones ke andar bhi replicate hota hai. Availability zones alag-alag physical locations hote hain within the same Azure region, providing additional resilience.
+Example (Udaharan):
+
+Agar aapka primary data center Mumbai mein hai, toh GZRS se, aapki data not only Singapore jaise kisi aur region mein duplicate hoti hai, balki Mumbai ke andar alag-alag availability zones mein bhi replicate hoti hai. Isse, agar kisi zone mein issue aata hai, toh baki zones se data recoverable rehta hai.
