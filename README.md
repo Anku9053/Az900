@@ -5,7 +5,7 @@
 ## What's the syallabus we need
  to follow??
 <p align="center">
-  <img src="https://i.pinimg.com/736x/a7/2f/22/a72f228ac415e3479c0b97bd8a6ead0d.jpg">[Azure_Unit 2 (1).pptx](https://github.com/Anku9053/Az900/files/14442678/Azure_Unit.2.1.pptx)
+  <img src="https://i.pinimg.com/736x/a7/2f/22/a72f228ac415e3479c0b97bd8a6ead0d.jpg">
 
 </p>
 
