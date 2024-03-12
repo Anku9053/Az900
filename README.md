@@ -412,15 +412,23 @@ Aap Dedicated Host ke zariye apne applications ko isolate environment mein run k
 * Query Language: Query language ka use hota hai, often SQL-based, expressive aur powerful data queries ke liye.
 * Global Distribution: Global distribution ke liye distribute kiya ja sakta hai, jisse performance aur reliability improve hoti hai.
 
+<p align="center">
+ <img src="https://miro.medium.com/v2/resize:fit:897/1*Iz4U7d9ktV500M1VmsiwmQ.png">
+</p>
+
 ## Unstructured Storage 
 
 ### Blob
 * Unstructured Data: Blob storage ka use kisi bhi tarah ke unstructured data jaise ki photos, videos, aur backups ke liye optimize kiya gaya hai.
-Tiered Storage: Yeh multiple access tiers (hot, cool, aur archive) support karta hai, jo data access patterns ke basis par costs ko optimize karne mein madad karta hai.
-Global Distribution: Data ko alag-alag geographical regions mein replicate karne ki capability provide karta hai, jisse availability aur performance improve hoti hai.
-Scalability: Data volumes badhne par seamless scaling ka option deta hai, isliye yeh large-scale applications ke liye suitable hai.
-Content Delivery: Content delivery networks (CDNs) ke saath integrate hota hai, jisse users ko efficient aur fast content delivery milti hai.
-Security Features: Yeh robust security features offer karta hai, jisme data ka encryption at rest aur in transit shaamil hai, jo data ki integrity ko ensure karte hain.
+* Tiered Storage: Yeh multiple access tiers (hot, cool, aur archive) support karta hai, jo data access patterns ke basis par costs ko optimize karne mein madad karta hai.
+* Global Distribution: Data ko alag-alag geographical regions mein replicate karne ki capability provide karta hai, jisse availability aur performance improve hoti hai.
+* Scalability: Data volumes badhne par seamless scaling ka option deta hai, isliye yeh large-scale applications ke liye suitable hai.
+* Content Delivery: Content delivery networks (CDNs) ke saath integrate hota hai, jisse users ko efficient aur fast content delivery milti hai.
+* Security Features: Yeh robust security features offer karta hai, jisme data ka encryption at rest aur in transit shaamil hai, jo data ki integrity ko ensure karte hain.
+
+<p align="center">
+ <img src="https://cloud.telestream.net/images/tutorials/azure-structure-679c37b5.png">
+</p>
 
 ### File
 * Shared Access: Yeh multiple users ko allow karta hai concurrently shared files ko access aur collaborate karne ke liye, jisse yeh team collaboration ke liye suitable hai.
@@ -428,7 +436,11 @@ Security Features: Yeh robust security features offer karta hai, jisme data ka e
 * Scalability: Yeh moderate-sized data sets ke liye scalable hai, lekin extremely large datasets ke liye additional considerations ki zarurat ho sakti hai.
 * Access Control: Folders aur files ke liye granular access control provide karta hai, taki permissions effectively manage ki ja sakein.
 * Snapshot Capabilities: Specific points par data ke snapshots ya copies create karne ki capability deta hai, jo data recovery aur backup ke liye useful hoti hai.
-  
+
+<p align="center">
+ <img src="https://static.javatpoint.com/tutorial/microsoft-azure/images/azure-file-storage-service.png">
+</p>
+
 ### Queue
 * Asynchronous Communication: Asynchronous communication ko facilitate karta hai, different components ya services ke beech mein.
 *  Message Priority: Message priority set karne ki capability hai, jisse critical tasks ya urgent messages ko handle kiya ja sake.
@@ -436,6 +448,10 @@ Security Features: Yeh robust security features offer karta hai, jisme data ka e
 * Scalability: Messages aur tasks ke badhne par horizontally scale hota hai.
 * At-Least-Once Delivery: Reliable message delivery ensure karta hai, usually at-least-once delivery semantics ka use karta hai.
 * Message Time-to-Live (TTL): Messages ke liye time-to-live set karne ki permission deta hai, jisse woh specific time ke baad automatically queue se remove ho jate hain.
+
+<p align="center">
+ <img src="https://code-maze.com/wp-content/uploads/2021/07/azure-queue-storage-structure.png">
+</p>
 
 ## What is Vertical Scaling And Horizontal Scaling??
 ### Horizontal Scaling:
