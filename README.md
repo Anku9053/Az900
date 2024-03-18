@@ -529,4 +529,5 @@ Example (Udaharan):
 Agar aapka primary data center Mumbai mein hai, toh GZRS se, aapki data not only Singapore jaise kisi aur region mein duplicate hoti hai, balki Mumbai ke andar alag-alag availability zones mein bhi replicate hoti hai. Isse, agar kisi zone mein issue aata hai, toh baki zones se data recoverable rehta hai.
 
 ### After Learninng Unit 2 Completely...
-https://github.com/Anku9053/Az900/assets/112754506/739f92dd-dc8f-487f-9494-e8c8167ab294
+https://drive.google.com/file/d/1unD6nMzDxO7zWGZvFIGuetmLM_MIkbct/view?usp=sharing
+
