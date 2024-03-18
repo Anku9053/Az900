@@ -1,6 +1,16 @@
+# Documents You can Go through for unit 1
+
+[Azure_UNIT-1 (1).pptx](https://github.com/Anku9053/Az900/files/14630229/Azure_UNIT-1.1.pptx)
+
+[Azure_unit 1_notes.docx](https://github.com/Anku9053/Az900/files/14630233/Azure_unit.1_notes.docx)
+
 # Documents You can Go through for unit 2
 [Azure_Unit 2 (1).pptx](https://github.com/Anku9053/Az900/files/14442131/Azure_Unit.2.1.pptx)
 
+[Azure Unit-2 Notes (1).docx](https://github.com/Anku9053/Az900/files/14630214/Azure.Unit-2.Notes.1.docx)
+
+# Documents You can Go through for unit 3
+[Unit 3-AZure AD ,RBAC.pptx](https://github.com/Anku9053/Az900/files/14630203/Unit.3-AZure.AD.RBAC.pptx)
 
 ## What's the syallabus we need to follow??
 <p align="center">
