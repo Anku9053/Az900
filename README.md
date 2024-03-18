@@ -532,13 +532,16 @@ Agar aapka primary data center Mumbai mein hai, toh GZRS se, aapki data not only
 https://drive.google.com/file/d/1unD6nMzDxO7zWGZvFIGuetmLM_MIkbct/view?usp=sharing
 
 # Lets Dive Into Unit3
-<p>
+<p align="center">
   <img src="https://www.scubadivingtips.net/uploads/1/0/5/0/10504422/scuba-instructor-diver-propane-tank-funny-scuba-diving-meme_orig.jpg">
 </p>
 
 ## What is Azure Active Directory??🤔
 * Azure Active Directory (Azure AD) ek cloud-based identity and access management service hai jo Microsoft dwara provide kiya jata hai. Iska mukhya uddeshya hai users ko alag-alag cloud applications aur services tak pahunchane ki suvidha pradan karna aur unhe secure tarike se authenticate karna. Azure AD mein users ke accounts create kiye jate hain jinhe unke organizations ke administrators manage karte hain. Har user ka ek unique username hota hai jise "user principal name (UPN)" kehte hain, aur unhe ek password ke saath login karne ki anumati hoti hai. Ismein groups ka upyog kiya jata hai users ko organize karne aur unhe alag-alag permissions aur access provide karne ke liye. Azure AD ke madhyam se, organizations apne users ko single sign-on (SSO) ki suvidha bhi pradan kar sakte hain, jisse users ko ek hi login ke jariye alag-alag applications aur services tak pahunchne ki anumati milti hai. Iske alawa, Azure AD ke security features unauthorized access se bachane aur overall security ko enhance karne mein madad karte hain.
 
+<p>
+  <img src="https://community.sap.com/legacyfs/online/storage/blog_attachments/2020/06/image001-3.png">
+</p>
 ## Azure AD ka istemal karte hain:
 
 * IT administrators: IT administrators Azure AD ka istemal karte hain takay wo applications aur resources ko unke business ke mutabiq control kar sakein.
