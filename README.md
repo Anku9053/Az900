@@ -528,6 +528,54 @@ Example (Udaharan):
 
 Agar aapka primary data center Mumbai mein hai, toh GZRS se, aapki data not only Singapore jaise kisi aur region mein duplicate hoti hai, balki Mumbai ke andar alag-alag availability zones mein bhi replicate hoti hai. Isse, agar kisi zone mein issue aata hai, toh baki zones se data recoverable rehta hai.
 
-### After Learninng Unit 2 Completely...
+### After Learning Unit 2 Completely...
 https://drive.google.com/file/d/1unD6nMzDxO7zWGZvFIGuetmLM_MIkbct/view?usp=sharing
 
+# Lets Dive Into Unit3
+<p>
+  <img src="https://www.scubadivingtips.net/uploads/1/0/5/0/10504422/scuba-instructor-diver-propane-tank-funny-scuba-diving-meme_orig.jpg">
+</p>
+
+## What is Azure Active Directory??🤔
+* Azure Active Directory (Azure AD) ek cloud-based identity and access management service hai jo Microsoft dwara provide kiya jata hai. Iska mukhya uddeshya hai users ko alag-alag cloud applications aur services tak pahunchane ki suvidha pradan karna aur unhe secure tarike se authenticate karna. Azure AD mein users ke accounts create kiye jate hain jinhe unke organizations ke administrators manage karte hain. Har user ka ek unique username hota hai jise "user principal name (UPN)" kehte hain, aur unhe ek password ke saath login karne ki anumati hoti hai. Ismein groups ka upyog kiya jata hai users ko organize karne aur unhe alag-alag permissions aur access provide karne ke liye. Azure AD ke madhyam se, organizations apne users ko single sign-on (SSO) ki suvidha bhi pradan kar sakte hain, jisse users ko ek hi login ke jariye alag-alag applications aur services tak pahunchne ki anumati milti hai. Iske alawa, Azure AD ke security features unauthorized access se bachane aur overall security ko enhance karne mein madad karte hain.
+
+## Azure AD ka istemal karte hain:
+
+* IT administrators: IT administrators Azure AD ka istemal karte hain takay wo applications aur resources ko unke business ke mutabiq control kar sakein.
+
+* App developers: App developers Azure AD ka istemal karte hain takay wo apne banaye gaye applications mein functionality ko barha sakein, jaise ke SSO functionality ko shamil karna ya existing credentials ke saath app ko kaam karne mein madad karna.
+
+* Users: Users apni identities ko manage kar sakte hain aur self-service password reset jaise kaam bhi kar sakte hain.
+
+* Online service subscribers: Microsoft 365, Microsoft Office 365, Azure, aur Microsoft Dynamics CRM Online subscribers pehle se hi Azure AD ka istemal kar rahe hain apne accounts mein login karne ke liye.
+
+## Azure AD kya karta hai?
+
+* ## Authentication: Yeh identity verify karna hai takay applications aur resources ko access kiya ja sake. Ismein self-service password reset, multifactor authentication, custom list of banned passwords, aur smart lockout services bhi shamil hain.
+
+* ## Single sign-on: Single sign-on (SSO) ke zariye aap ko sirf ek username aur password yaad rakhna hota hai multiple applications tak access karne ke liye. Yeh ek identity ko ek user ke saath jodta hai, jo ke security model ko simplify karta hai.
+
+* ## Application management: Aap Azure AD ke zariye apne cloud aur on-premises apps ko manage kar sakte hain. Features jaise ke Application Proxy, SaaS apps, My Apps portal, aur single sign-on user experience ko behtar banate hain.
+
+* ## (MFA) Multifactor authentication ek process hai jismein user se sign-in process ke doran ek extra form (ya factor) ki pehchan ki darkhwast ki jati hai. MFA madad karta hai password compromise ke khilaf, aise situations mein jab password compromise ho gaya ho lekin doosra factor nahi.
+
+*  Example Socho ki jab tum websites, email, ya online services mein sign-in karte ho, to kya kabhi tumhare phone par bheja gaya ek code enter karna pada hai? Agar haan, to tumne multifactor authentication ka istemal kiya hai sign-in ke liye.
+
+* Multifactor authentication tumhari identities ke liye additional security faraham karta hai kyunki ismein do ya zyada elements ka istemal hota hai authentication ke liye. Ye elements teen categories mein aate hain:
+
+* Kuch jo user jaanta hai – ye ek challenge question ho sakta hai.
+* Kuch jo user ke paas hai – ye user ke mobile phone par bheja gaya code ho sakta hai.
+* Kuch jo user hai – ye aam taur par koi biometric property hoti hai, jaise ki fingerprint ya face scan.
+* Multifactor authentication identity security ko badha kar credentials exposure ka asar kam karta hai (maslan, chori hue usernames aur passwords). Multifactor authentication ko enable karna chahiye jahan bhi mumkin ho kyunki ye security mein badi fawaid faraham karta hai.
+
+## Comparision Between MFA and SSO
+* Ab single-factor authentication ke saath multifactor authentication ko compare karte hain. Single-factor authentication mein, ek hamla karne wala sirf ek username aur password ki zaroorat hoti hai authentication ke liye. Multifactor authentication ko enable karna chahiye kyunki ye security ko bada kar deta hai.
+
+# What is Passwordless authentication??
+* ## Passwordless authentication ka matlab hai ki aap apne accounts mein login karne ke liye password ki jagah kuch aur factors ka istemal karte hain. Ismein aapko password yaad rakhne ki zaroorat nahi hoti, jisse security aur convenience dono milte hain.
+
+* For example, agar aap Windows Hello for Business ka istemal karte hain, toh aap apne computer mein fingerprint ya facial recognition se login kar sakte hain, jiski madad se aapka identity verify hota hai. Yeh passwordless authentication ka ek example hai.
+
+* Real-life Example (Hinglish): Sochiye aap ek office mein kaam karte hain aur aapko rozana apne computer mein login karna hota hai. Agar aap passwordless authentication ka istemal karte hain, jaise ki Windows Hello for Business, toh aapko har baar apna password yaad rakhne ki zaroorat nahi hoti. Aap sirf apna fingerprint ya facial recognition ka istemal karke apne computer mein login kar sakte hain, jisse aapki security bhi hai aur aapko convenience bhi milti hai.
+
+* Cloud Computing Example (Hinglish): Cloud computing mein bhi passwordless authentication ka istemal hota hai. For example, agar aap Microsoft Azure ka istemal kar rahe hain aur aapko apne Azure account mein login karna hai, toh aap Microsoft Authenticator app ka istemal karke passwordless authentication ka fayda utha sakte hain. Ismein aapko ek code ya notification milta hai jise aap apne phone mein dekh kar apne Azure account mein login kar sakte hain, bina password ke. Yeh ek aur passwordless authentication ka example hai jo cloud computing mein istemal hota hai.
